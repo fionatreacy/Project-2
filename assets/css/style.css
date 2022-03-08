@@ -7,7 +7,7 @@
 }
 
 section {
-    height: 100vh;
+    height: 100%;
     background-color: white;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
@@ -89,6 +89,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .player-hand {
@@ -103,4 +104,25 @@ div.fadeOut {
 div.fadeIn {
     opacity: 1;
     pointer-events: all;
+}
+
+/* for screens size 950px */
+
+@media screen and (max-width:450px) {
+    * {
+        clear: both;
+        columns: 1;
+        width: 90%;
+        float: none;
+        text-align: center;
+    }
+    .hands,
+    .options {
+        width: 100%;
+        padding: 0 15%;
+    }
+    .score,
+    .intro {
+        text-align: center;
+    }
 }
