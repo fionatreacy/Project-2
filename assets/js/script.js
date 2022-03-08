@@ -48,3 +48,33 @@ const game = () => {
       });
     });
   };
+
+  // updating scores
+  const updateScore = () => {
+    const playerScore = document.querySelector(".player-score p");
+    const computerScore = document.querySelector(".computer-score p");
+    playerScore.textContent = pScore;
+    computerScore.textContent = cScore;
+  };
+  const compareHands = (playerChoice, computerChoice) => {
+    const winner = document.querySelector(".winner");
+
+    if (playerChoice === computerChoice) {
+        alert("It's a tie!");
+        return;
+      }
+
+      // when player chooses rock
+      if (playerChoice === "rock") {
+        if (computerChoice === "scissors") {
+          alert("Congrats! You won!");
+          pScore++;
+          updateScore();
+          return;
+        } else {
+          alert("Computer wins :/");
+          cScore++;
+          updateScore();
+          return;
+        }
+      }
