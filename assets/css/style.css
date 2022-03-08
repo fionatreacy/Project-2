@@ -10,6 +10,7 @@ section {
     height: 100vh;
     background-color: white;
     font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
 }
 
 .score {
@@ -55,6 +56,8 @@ section {
     background: black;
     border-radius: 3px;
     cursor: pointer;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
 }
 .match button:hover {
     color: black;
