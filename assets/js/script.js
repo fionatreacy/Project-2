@@ -78,3 +78,18 @@ const game = () => {
           return;
         }
       }
+
+      // when player chooses paper
+      if (playerChoice === "paper") {
+        if (computerChoice === "scissors") {
+            alert("Computer wins :/");
+          cScore++;
+          updateScore();
+          return;
+        } else {
+            alert("Congrats! You won!");
+          pScore++;
+          updateScore();
+          return;
+        }
+      }
