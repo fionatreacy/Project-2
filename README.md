@@ -91,3 +91,11 @@ The most complex function has a cyclomatic complexity value of 8 while the media
 
 <p>The site was deployed to github pages. In the settings of my repository I selected the pages section, sourced it from the master branch and and clicked save. Github then provided a link to the deployed site which can be found <a href="https://fionatreacy.github.io/Project-2/" target="_blank" rel="noopener" class="tickets">HERE. </a>
 </p>
+
+<h2>Credits</h2>
+
+<h3>Media</h3>
+I got the hand icons from Developed by Ed on youtube. The footer icons are from FontAwesome.
+
+<h3>Content</h3>
+I referred to two youtube tutorials, by Developed by Ed and Code with Ania Kubow, for instructions on the javascript elements.
