@@ -59,11 +59,13 @@ section {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
 }
+
 .match button:hover {
     color: black;
     background: white;
     border: 1px solid black;
 }
+
 .intro button:hover {
     color: black;
     background: white;
@@ -106,7 +108,29 @@ div.fadeIn {
     pointer-events: all;
 }
 
-/* for screens size 950px */
+footer {
+    height: 150px;
+    clear: both;
+    position: relative;
+    top: 400px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
+/* for screens size 450px */
 
 @media screen and (max-width:450px) {
     * {
@@ -115,14 +139,32 @@ div.fadeIn {
         width: 90%;
         float: none;
         text-align: center;
+        height: fit-content;
+        padding-left: 20px;
     }
+
     .hands,
     .options {
         width: 100%;
         padding: 0 15%;
     }
+
     .score,
     .intro {
         text-align: center;
     }
+
+    footer {
+        height: 50px;
+        width: 10%;
+        display: inline-block;
+        text-align: center;
+        font-size: 150%;
+    }
+    
+    .social-media i {
+        position: relative;
+        padding-left: -20px;
+    }
+
 }
