@@ -98,4 +98,4 @@ The most complex function has a cyclomatic complexity value of 8 while the media
 I got the hand icons from Developed by Ed on youtube. The footer icons are from FontAwesome.
 
 <h3>Content</h3>
-I referred to two youtube tutorials, by Developed by Ed and Code with Ania Kubow, for instructions on the javascript elements.
+I referred to two youtube tutorials, by Developed by Ed (Javascript Rock Paper Scissors Game Tutorial) and Code with Ania Kubow (3 Ways to Code Rock Paper Scissors in JavaScript), for instructions on the javascript elements.
