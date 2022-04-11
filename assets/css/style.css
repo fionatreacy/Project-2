@@ -149,6 +149,14 @@ footer {
         padding: 0 15%;
     }
 
+    .winner {
+        padding-top: 100px;
+    }
+
+    .score {
+        padding-bottom: 25px;
+    }
+
     .score,
     .intro {
         text-align: center;
