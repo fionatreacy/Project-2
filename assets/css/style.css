@@ -113,3 +113,22 @@ div.fadeIn {
 
 /* for screens size 450px */
 
+@media screen and (max-width: 450px) {
+    .options {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .options button {
+        width: 90%;
+    }
+
+    .paper {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .winner {
+        margin-top: 30%;
+    }
+}
