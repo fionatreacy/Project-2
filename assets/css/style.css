@@ -114,6 +114,7 @@ div.fadeIn {
 /* for screens size 450px */
 
 @media screen and (max-width: 450px) {
+    
     .options {
         display: inline-block;
         width: 100%;

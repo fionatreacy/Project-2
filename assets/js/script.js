@@ -70,7 +70,7 @@ const game = () => {
             updateScore();
             return;
           } else {
-            winner.textContent = "Computer Wins :(";
+            winner.textContent = "Computer Wins";
             cScore++;
             updateScore();
             return;
@@ -79,7 +79,7 @@ const game = () => {
         //Check for Paper
         if (playerChoice === "paper") {
           if (computerChoice === "scissors") {
-            winner.textContent = "Computer Wins :(";
+            winner.textContent = "Computer Wins";
             cScore++;
             updateScore();
             return;
@@ -93,7 +93,7 @@ const game = () => {
         //Check for Scissors
         if (playerChoice === "scissors") {
           if (computerChoice === "rock") {
-            winner.textContent = "Computer Wins :(";
+            winner.textContent = "Computer Wins";
             cScore++;
             updateScore();
             return;
