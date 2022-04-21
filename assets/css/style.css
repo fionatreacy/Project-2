@@ -42,6 +42,10 @@ section {
     transition: opacity 0.5s ease;
 }
 
+.intro > button {
+    margin-top: 10%;
+}
+
 .intro h1 {
     font-size: 50px;
 }
@@ -118,10 +122,6 @@ div.fadeIn {
     .intro {
         margin: auto;
         text-align: center;
-    }
-
-    .intro > button {
-        margin-top: 10%;
     }
     
     .options {
