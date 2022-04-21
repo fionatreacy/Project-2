@@ -1,7 +1,7 @@
 <h1>Rock Paper Scissors</h1>
 <br>
 
-<img src="assets/images/game-response.png">
+<img src="assets/images/responsiveness.png">
 
 <br>
 
@@ -15,7 +15,7 @@ This site is a simple game of Rock, Paper, Scissors played against a computer. T
 <br>
 
 <h3>Home Screen</h3>
-<img src="assets/images/game-home.png">
+<img src="assets/images/intro-screen.png">
 <ul>
 <li>A large button at the center of the screen encourages the player to enter the game area saying "Let's Play"</li>
 <li>The black button contrasts with the white background, and the colours invert when it's hovered over, for ease of reading</li>
@@ -25,7 +25,7 @@ This site is a simple game of Rock, Paper, Scissors played against a computer. T
 <br>
 
 <h3>Game Area</h3>
-<img src="assets/images/game-area.png">
+<img src="assets/images/game-options.png">
 <ul>
 <li>Two hand icons represent the player and the computers choices </li>
 <li>Beneath the hands are three buttons to chose from</li>
@@ -67,7 +67,7 @@ This site is a simple game of Rock, Paper, Scissors played against a computer. T
 
 <br>
 
-<h3>Testing</h3>
+<h3>Validator Testing</h3>
 
 <ul>
 <li>No errors found on the official W3C HTML validator</li>
@@ -96,6 +96,8 @@ The most complex function has a cyclomatic complexity value of 8 while the media
 
 <h3>Media</h3>
 I got the hand icons from Developed by Ed on youtube. The footer icons are from FontAwesome.
+
+<br>
 
 <h3>Content</h3>
 I referred to two youtube tutorials, by Developed by Ed (Javascript Rock Paper Scissors Game Tutorial) and Code with Ania Kubow (3 Ways to Code Rock Paper Scissors in JavaScript), for instructions on the javascript elements.
