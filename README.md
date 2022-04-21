@@ -95,7 +95,7 @@ The most complex function has a cyclomatic complexity value of 8 while the media
 <h2>Credits</h2>
 
 <h3>Media</h3>
-I got the hand icons from Developed by Ed on youtube. The footer icons are from FontAwesome.
+I got the hand icons from Developed by Ed on youtube.
 
 <br>
 
