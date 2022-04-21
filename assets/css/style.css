@@ -42,7 +42,7 @@ section {
     transition: opacity 0.5s ease;
 }
 
-.intro > button {
+.intro>button {
     margin-top: 10%;
 }
 
@@ -89,7 +89,7 @@ section {
     color: rgb(32, 32, 32);
     text-align: center;
     font-size: 50px;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 .hands,
@@ -123,7 +123,7 @@ div.fadeIn {
         margin: auto;
         text-align: center;
     }
-    
+
     .options {
         display: inline-block;
         width: 100%;
