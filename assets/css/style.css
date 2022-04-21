@@ -114,6 +114,15 @@ div.fadeIn {
 /* for screens size 450px */
 
 @media screen and (max-width: 450px) {
+
+    .intro {
+        margin: auto;
+        text-align: center;
+    }
+
+    .intro > button {
+        margin-top: 10%;
+    }
     
     .options {
         display: inline-block;
